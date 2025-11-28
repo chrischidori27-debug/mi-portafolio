@@ -1,2 +1,4 @@
 console.log('Bienvenidos a la parte atras');
-alert('Hola... Soy Pepito');
+document.querySelector('h1').addEventListener('click',()=>{
+    alert('HOLAS... SOY PEPITO')
+})
